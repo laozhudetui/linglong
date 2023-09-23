@@ -12,7 +12,7 @@
 #    && npm install node-sass \
 #    && cnpm run build
 
-FROM nginx:1.15.3-alpine as production-stage
+FROM nginx:1.25.2-alpine as production-stage
 
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
